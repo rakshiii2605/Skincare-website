@@ -1,0 +1,131 @@
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #F9FBFC;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* BRAND */
+.brand {
+  color: #457B9D;
+  font-weight: 600;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #A8DADC, #FADADD);
+  padding: 140px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  opacity: 0.8;
+}
+
+/* BUTTON (FIXED - SINGLE VERSION) */
+.btn-soft {
+  background: #457B9D;
+  color: white;
+  border-radius: 25px;
+  padding: 12px 25px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-soft:hover {
+  background: #1d5f85;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(69, 123, 157, 0.3);
+}
+
+/* SERVICE CARDS */
+.service-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* WHY SECTION */
+.why {
+  background: #FADADD;
+  padding: 70px 0;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: #A8DADC;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+/* APPOINTMENT SECTION */
+.appointment-section {
+  padding: 90px 0;
+  background: #F9FBFC;
+}
+
+/* INFO BOX */
+.info-box {
+  background: #A8DADC;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* APPOINTMENT CARD */
+.appointment-card {
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.appointment-card:hover {
+  transform: translateY(-5px);
+}
+
+/* INPUTS */
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+/* INPUT FOCUS (IMPORTANT UX FIX) */
+.form-control:focus {
+  border-color: #457B9D;
+  box-shadow: 0 0 8px rgba(69,123,157,0.2);
+}
+
+/* TEXTAREA */
+textarea.form-control {
+  resize: none;
+  height: 100px;
+}
+
+/* SPACING HELPERS (NEW) */
+.section-title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* SMOOTH TRANSITIONS FOR ALL */
+* {
+  transition: all 0.2s ease-in-out;
+}
